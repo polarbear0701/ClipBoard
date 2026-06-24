@@ -10,7 +10,7 @@ import Combine
 
 @MainActor
 @Observable
-class ClipboardMonitor {
+class ClipBoardMonitor {
     private var timer: Timer?
     private var lastChangeCount: Int = 0
     private let store: ClipBoardStore
